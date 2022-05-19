@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Capstone Project</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <!-- Brand -->
+        <span class="brand">FYLO</span>
+
+        <!-- nav list -->
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+
+        <!-- navbar toggler -->
+        <span class="toggle">
+            <!-- <i class="fas fa-barcode"></i> -->
+        </span>
+    </nav>
+    <!-- form -->
+    <section>
+        <div class="form-section">
+            <div class="one content">
+                <p>Plan your activities and control your progress online</p>
+                <img src="./img/bike.png" alt="">
+            </div>
+            <div class="two form">
+                <h1>Create your account</h1>
+                 <form action="#" id="form">
+                     <label for="username">
+                         USERNAME
+                     </label>
+                     <br>
+                     <input class="" type="text" id="username" name="username" placeholder="">
+                     <small class="usernameVal"></small>
+                     <p></p>
+                     <label for="email">
+                         E-MAIL ADDRESS
+                     </label>
+                     <br>
+                     <input type="email" id="email" name="email" placeholder="">
+                     <small class="emailVal"></small>
+                     <p></p>
+                     <label for="phonenumber">
+                        PHONE NUMBER
+                    </label>
+                    <br>
+                    <input type="text" id="number" name="phonenumber">
+                    <small class="numberVal"></small>
+                    <p></p>
+                    <label>What`s Your Gender?</label>
+                    <br>
+                    <select name="" id="gender" >
+                        <option value="">--- Select your gender ---</option>
+                        <option value="">Female</option>
+                        <option value="">Male</option>
+                    </select>
+                    <small class="genderVal"></small>
+                    <p></p>
+                     <label for="password">
+                         Password
+                     </label>
+                     <br>
+                     <div class="password-div">
+                     <input type="password" id="password" name="password" placeholder="" >
+                     <small class="passwordVal"></small>
+                     <i class="fas fa-eye"></i>
+                    </div>
+                     <p></p>
+                     <label for="password">
+                        Confirm password
+                    </label>
+                    <br>
+                    <div class="password-div">
+                    <input type="password" id="cpassword" name="password" placeholder="" >
+                    <small class="cpasswordVal"></small>
+                    <i class="two fas fa-eye"></i>
+                   </div>
+                    <p></p>
+                <div class="terms-div">
+                 <input type="checkbox"> <span class="terms">I agree all terms and conditions</span> 
+                </div>
+                 <p></p>
+                 <input class="submit-btn" type="submit" value="Sign up"><br>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
